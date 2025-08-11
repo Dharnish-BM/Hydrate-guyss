@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0f1a">
+    <title>HYDRATE GUYSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <div class="backdrop"></div>
+      <div class="floating-particles"></div>
+
+      <header class="header">
+        <h1 class="title">HYDRATE GUYSS</h1>
+        <div class="subhead">
+          <div class="clock" id="clock" aria-live="polite">--:--:--</div>
+        </div>
+      </header>
+
+      <section class="timer-panel">
+        <div class="countdown-container">
+          <div class="countdown" id="countdown" aria-live="polite">20:00</div>
+          <div class="cycle-info" id="cycleInfo">Cycle 1</div>
+        </div>
+
+        <div class="status-line" id="statusLine">Press Start to begin the 20-minute hydration cycle.</div>
+
+        <div class="controls">
+          <button id="startButton" class="btn btn-primary" type="button">Start Timer</button>
+          <button id="stopButton" class="btn btn-secondary" type="button" disabled>Stop</button>
+          <button id="resetButton" class="btn btn-secondary" type="button" disabled>Reset</button>
+        </div>
+
+        <div class="schedule-info">
+          <div class="next-sirens" id="nextSirens"></div>
+          <div class="break-info" id="breakInfo"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="note">
+          Audio will play for 30s at each reminder. Add your own MP3s in <code>assets/audio</code>.
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
