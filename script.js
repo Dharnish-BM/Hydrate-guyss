@@ -682,16 +682,6 @@ function nextOccurrence(base, hour, minute) {
     console.log(`⏰ Time passed today, scheduling for tomorrow: ${formatClock(d)}`);
   }
   
-  // Special handling for 12:XX times to ensure AM/PM is correct
-  if (hour === 12) {
-    // Force AM for 12:XX times
-    d.setHours(0, minute, 0, 0); // 0 = 12 AM
-    if (d.getTime() <= base.getTime()) {
-      d.setDate(d.getDate() + 1);
-    }
-    console.log(`🌅 12:XX time converted to AM: ${formatClock(d)}`);
-  }
-  
   console.log(`✅ Final scheduled time: ${formatClock(d)}`);
   return d;
 }
