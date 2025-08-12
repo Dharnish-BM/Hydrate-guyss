@@ -9,9 +9,9 @@ const LUNCH_DURATION_MS = 60 * 60 * 1000; // 1 hour for lunch
 
 // Siren schedule (24-hour values) in local time
 const SIREN_SCHEDULE = [
-  { h: 10, m: 20, label: "Break Siren", duration: BREAK_DURATION_MS },
-  { h: 12, m: 20, label: "Lunch Siren", duration: LUNCH_DURATION_MS },
-  { h: 15, m: 0,  label: "Break Siren", duration: BREAK_DURATION_MS },
+  { h: 10, m: 25, label: "Break Siren", duration: BREAK_DURATION_MS },
+  { h: 12, m: 25, label: "Lunch Siren", duration: LUNCH_DURATION_MS },
+  { h: 15, m: 5,  label: "Break Siren", duration: BREAK_DURATION_MS },
 ];
 
 // Local MP3s rotation — place files in assets/audio and update these names
