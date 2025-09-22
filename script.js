@@ -2,7 +2,7 @@
 
 /* Config */
 const HYDRATION_INTERVAL_MS = 20 * 60 * 1000; // 20 minutes (TESTING)
-const PLAY_DURATION_MS = 30 * 1000; // 30 seconds
+const PLAY_DURATION_MS = 60 * 1000; // 1 minute
 const SIREN_PLAY_DURATION_MS = 30 * 1000; // 30 seconds
 const BREAK_DURATION_MS = 20 * 60 * 1000; // 20 minutes for breaks
 const LUNCH_DURATION_MS = 60 * 60 * 1000; // 1 hour for lunch
@@ -21,6 +21,11 @@ const HYDRATION_TRACKS = [
   "assets/audio/hydration3.mp3",
   "assets/audio/hydration4.mp3",
   "assets/audio/hydration5.mp3",
+  "assets/audio/hydration6.mp3",
+  "assets/audio/hydration7.mp3",
+  "assets/audio/hydration8.mp3",
+  "assets/audio/hydration9.mp3",
+  "assets/audio/hydration10.mp3",
 ];
 
 // Siren audio file
