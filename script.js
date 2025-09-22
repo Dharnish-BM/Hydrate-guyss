@@ -264,7 +264,7 @@ async function playHydrationReminder() {
   if (hydrationPlaying || sirenPlaying) return;
   
   hydrationPlaying = true;
-  statusLine.textContent = "Hydration reminder playing for 30s…";
+  statusLine.textContent = "Hydration reminder playing for 60s…";
   console.log("🎵 Starting hydration reminder...");
 
   try {
